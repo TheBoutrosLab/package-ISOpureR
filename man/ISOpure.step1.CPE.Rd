@@ -46,11 +46,11 @@ ISOpure.step1.CPE(tumordata, BB, PP, MIN_KAPPA, logging.level)
 \references{
   G Quon, S Haider, AG Deshwar, A Cui, PC Boutros, QD Morris. \emph{Computational purification of 
   individual tumor gene expression profiles}. Genome Medicine (2013) 5:29, 
-  \url{http://genomemedicine.com/content/5/3/29}.
+  \url{https://link.springer.com/article/10.1186/gm433}.
   
   G Quon, QD Morris. \emph{ISOLATE: a computational strategy for identifying the primary origin of
   cancers using high-thoroughput sequencing}. Bioinformatics 2009, 25:2882-2889 
-  \url{http://bioinformatics.oxfordjournals.org/content/25/21/2882}.
+  \url{https://academic.oup.com/bioinformatics/article/25/21/2882/2111897}.
 
 }
 \value{ISOpureS1model, a list with the following important fields:

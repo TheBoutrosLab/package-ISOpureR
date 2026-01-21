@@ -1,3 +1,12 @@
+ISOpureR 1.1.4 2026-01-21
+==========================
+
+Minor update
+-------------
+- Fixed escaped LaTeX special characters in documentation
+- Updated broken reference URLs to working Springer links
+- Updated version and maintenance date
+
 ISOpureR 1.1.3 2019-05-10
 ==========================
 

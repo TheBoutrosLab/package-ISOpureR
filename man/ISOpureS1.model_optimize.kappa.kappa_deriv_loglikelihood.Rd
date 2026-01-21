@@ -6,12 +6,12 @@
 	we optimize the log of kappa in an unconstrained fashion.  Thus, if y=log(kappa) and L is the 
 	loglikelihood function w.r.t. y, to optimize L w.r.t. y,   dL/dy = dL/dkappa * dkappa/dy, 
 	where dkappa/dy = exp(y)= exp( log(kappa)). The input into the derivative function is 
-	log(kappa - model\$MIN_KAPPA). }
+	log(kappa - model$MIN_KAPPA). }
 \usage{
 ISOpureS1.model_optimize.kappa.kappa_deriv_loglikelihood(log_kappa, tumordata, model)
 }
 \arguments{
-	\item{log_kappa}{the scalar log(kappa - model\$MIN_KAPPA)}
+	\item{log_kappa}{the scalar log(kappa - model$MIN_KAPPA)}
 	\item{tumordata}{a GxD matrix representing gene expression profiles of tumour samples}
 	\item{model}{list containing all the parameters to be optimized}
 }
