@@ -8,7 +8,7 @@
 ISOpureS1.model_optimize.kappa.kappa_loglikelihood(log_kappa, tumordata, model)
 }
 \arguments{
-	\item{log_kappa}{the scalar log(kappa - model\$MIN_KAPPA)}
+	\item{log_kappa}{the scalar log(kappa - model$MIN_KAPPA)}
 	\item{tumordata}{a GxD matrix representing gene expression profiles of tumour samples}
 	\item{model}{list containing all the parameters to be optimized}
 }

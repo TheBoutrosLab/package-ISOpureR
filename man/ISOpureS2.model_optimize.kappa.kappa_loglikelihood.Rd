@@ -8,7 +8,7 @@
 ISOpureS2.model_optimize.kappa.kappa_loglikelihood(log_kappa, model)
 }
 \arguments{
-	\item{log_kappa}{the 1xD matrix log(kappa - model\$MIN_KAPPA)}
+	\item{log_kappa}{the 1xD matrix log(kappa - model$MIN_KAPPA)}
 	\item{model}{list containing all the parameters to be optimized}
 }
 \value{The negative of the loglikelihood relevant to optimizing kappa}
